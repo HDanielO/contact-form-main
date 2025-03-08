@@ -54,6 +54,13 @@ form {
   gap: 0.5em;
 }
 
+#first-name-input,
+#last-name-input,
+#email-input {
+  padding: 0.95em;
+  border-radius: 0.5em;
+}
+
 .form-sub-msg-layout {
   background-color: var(--grey-900);
   color: var(--white);
