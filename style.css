@@ -16,6 +16,10 @@
   --bold-font: 700;
 }
 
+.displayNone{
+  display: none;
+}
+
 body {
   background-color: var(--grey-200);
 }
