@@ -22,8 +22,16 @@ body {
 
 form {
   background-color: var(--white);
+  color: var(--grey-900);
 }
+
+
+
+
+
+
 
 .form-sub-msg-layout {
   background-color: var(--grey-900);
+  color: var(--white);
 }
