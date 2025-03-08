@@ -99,7 +99,23 @@ select:-webkit-autofill:focus {
   width: 0;
 }
 
+.query-type-input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
 
+.radio-input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.query-type-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
 
 .form-sub-msg-layout {
   background-color: var(--grey-900);
