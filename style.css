@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
 }
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --grey-200: hsl(148, 38%, 91%);
+  --grey-500: hsl(186, 15%, 59%);
+  --grey-600: hsl(169, 82%, 27%);
+  --grey-900: hsl(187, 24%, 22%);
+  --red: hsl(0, 66%, 54%);
+  --regular-font: 400;
+  --bold-font: 700;
+}
