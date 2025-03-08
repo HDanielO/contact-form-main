@@ -51,6 +51,12 @@ form {
   margin-left: 0.5em;
 }
 
+.name-input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 .first-name-input-layout,
 .last-name-input-layout,
 .email-input-layout {
