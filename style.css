@@ -47,6 +47,13 @@ form {
   margin-left: 0.5em;
 }
 
+.name-input-layout,
+.email-input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
 .form-sub-msg-layout {
   background-color: var(--grey-900);
   color: var(--white);
