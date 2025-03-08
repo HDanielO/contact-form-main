@@ -16,7 +16,7 @@
   --bold-font: 700;
 }
 
-.displayNone{
+.displayNone {
   display: none;
 }
 
@@ -51,7 +51,8 @@ form {
   margin-left: 0.5em;
 }
 
-.name-input-layout,
+.first-name-input-layout,
+.last-name-input-layout,
 .email-input-layout {
   display: flex;
   flex-direction: column;
