@@ -89,6 +89,18 @@ select:-webkit-autofill:focus {
   color: var(--red);
 }
 
+#query-type-input-1,
+#query-type-input-2 {
+  /* display: none; */
+  /* display none will return an error for a required input */
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  width: 0;
+}
+
+
+
 .form-sub-msg-layout {
   background-color: var(--grey-900);
   color: var(--white);
