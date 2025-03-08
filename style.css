@@ -15,3 +15,15 @@
   --regular-font: 400;
   --bold-font: 700;
 }
+
+body {
+  background-color: var(--grey-200);
+}
+
+form {
+  background-color: var(--white);
+}
+
+.form-sub-msg-layout {
+  background-color: var(--grey-900);
+}
