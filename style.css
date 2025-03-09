@@ -75,6 +75,12 @@ form {
   font-size: 0.9rem;
 }
 
+#first-name-input:hover,
+#last-name-input:hover,
+#email-input:hover {
+  border: 2px solid var(--grey-600);
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
