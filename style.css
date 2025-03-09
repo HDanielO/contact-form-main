@@ -42,7 +42,7 @@ form {
 }
 
 .input-layout-header {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: var(--regular-font);
 }
 
@@ -134,6 +134,22 @@ textarea {
   border: 1px solid var(--grey-500);
   outline: none;
   padding: 0.75em 1em;
+}
+
+#checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+#checkbox-input {
+  opacity: 0;
+  width: 0;
+  z-index: -1;
+}
+
+#consent-label-text {
+  font-size: 0.9rem;
 }
 
 .form-sub-msg-layout {
