@@ -177,4 +177,31 @@ button:hover {
 .form-sub-msg-layout {
   background-color: var(--grey-900);
   color: var(--white);
+  width: 85%;
+  /* change width in desktop */
+  margin: 0.5em auto;
+  padding: 1em;
+  border-radius: 0.5em;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /*  left: 50% is relative to the parent while the translate transform is relative to the elements width/height. */
+
+  /* to center it vertically to0, just add;
+   top: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.sub-msg-header {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 0.5em;
+}
+
+.sub-msg-txt {
+  font-size: 0.65rem;
+  font-weight: var(--regular-font);
 }
